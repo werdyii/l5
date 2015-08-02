@@ -1,0 +1,1 @@
+{"version":3,"sources":["flash_message.js"],"names":[],"mappings":"AAAA","file":"all.js","sourcesContent":["$(\"div.alert\").not(\".alet-important\").delay(4000).slideUp(300);"],"sourceRoot":"/source/"}

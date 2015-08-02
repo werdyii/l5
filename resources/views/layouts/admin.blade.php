@@ -15,8 +15,9 @@
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" type="text/css" />
 
     <!-- Custom styles for this template -->
-    <link href="{{ asset('/css/dashboard.css') }}" rel="stylesheet">
-    <link href="{{ asset('/css/app.css') }}" rel="stylesheet">
+    <link href="{{ elixir('css/all.css') }}" rel="stylesheet">
+    <link href="{{ assets('css/dasboard.css') }}" rel="stylesheet">
+    
 
     <!-- Fonts -->
     <link href='//fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
@@ -70,11 +71,6 @@
             <li><a href="{{ url('admin/products') }}">Producd</a></li>
             <li><a href="{{ url('contact') }}">Contact</a></li>
           </ul>
-          <ul class="nav nav-sidebar">
-            <li><a href="">Nav item again</a></li>
-            <li><a href="">One more nav</a></li>
-            <li><a href="">Another nav item</a></li>
-          </ul>
         </div>
 
         <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
@@ -97,4 +93,3 @@
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
   </body>
 </html>
--y

@@ -13,6 +13,7 @@
 
     <!-- Bootstrap core CSS -->
     <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="{{ elixir('css/all.css') }}" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="offcanvas.css" rel="stylesheet">

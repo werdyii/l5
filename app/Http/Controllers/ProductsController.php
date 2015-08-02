@@ -7,6 +7,11 @@ use Illuminate\Http\Request;
 
 class ProductsController extends Controller {
 
+	public function __construct()
+	{
+		$this->beforeFilter('csrf', array('on' => 'post' ));
+	}
+
 	/**
 	 * Display a listing of the resource.
 	 *
@@ -14,7 +19,8 @@ class ProductsController extends Controller {
 	 */
 	public function index()
 	{
-		//
+		return view('products.index')
+			->with('products',Category::all());
 	}
 
 	/**

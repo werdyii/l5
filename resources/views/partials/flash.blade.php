@@ -13,6 +13,7 @@
 
 <!-- 
 <script>
+	// flash_message.js
 	$("div.alert").not(".alet-important").delay(4000).slideUp(300);
 </script>
 
