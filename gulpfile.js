@@ -19,6 +19,8 @@ gulp watch
 gulp --production  vytvorim minifykovany produkcny file
  */
 
+elixir.config.sourcemaps = false;
+
 elixir(function(mix) {
 
     mix.less('app.less')
